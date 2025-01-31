@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="JS_DataTypes_and_Conditionals.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <button>Press me</button>
+    <div>
+        <H2 
+        id="greeting" 
+        style="background-color: antiquewhite; height:100px;">
+        </H2>
+    </div>
+    
+
+
+    <h1>JavaScript Strings</h1>
+    <h2>The length Property</h2>
+
+    <p>The length of the string is:</p>
+    <p id="demo"></p>
+
+    <script>
+    let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    document.getElementById("demo").innerHTML = text.length;
+    </script>
+
+<label for="weather">Select the weather type today: </label>
+<select id="weather">
+  <option value="">--Make a choice--</option>
+  <option value="sunny">Sunny</option>
+  <option value="rainy">Rainy</option>
+  <option value="snowing">Snowing</option>
+  <option value="overcast">Overcast</option>
+</select>
+
+<p></p>
+
+</body>
+</html>
